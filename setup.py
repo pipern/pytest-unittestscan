@@ -31,17 +31,17 @@ proj.test_dir and use any TestCase or TestSuite subclasses found.
 from setuptools import setup
 
 setup(
-    name="pytest-setuptools",
+    name="pytest-unittestscan",
     version="0.1",
     description='py.test setuptools unittest plugin',
     long_description=__doc__,
     license='BSD',
     author='Nick Piper',
     author_email='nick.piper@logica.com',
-    url='http://github.com/pipern/pytest-setuptools',
+    url='http://github.com/pipern/pytest-unittestscan',
     platforms=['linux', 'osx', 'win32'],
     py_modules=['pytest_setuptools'],
-    entry_points = {'pytest11': ['pytest_setuptools = pytest_setuptools'],},
+    entry_points = {'pytest11': ['pytest_unittestscan = pytest_unittestscan'],},
     zip_safe=False,
     install_requires = ['py>=1.3.1'],
     classifiers=[
