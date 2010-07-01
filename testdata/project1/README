@@ -1,0 +1,2 @@
+This sample project is testing letting py.test call a function which collects
+the unittest suite.

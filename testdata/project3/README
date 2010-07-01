@@ -1,0 +1,2 @@
+This sample project uses test filenames that py.test already detects,
+so no setup.cfg is needed to find the tests.

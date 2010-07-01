@@ -1,0 +1,2 @@
+This sample project is testing letting py.test search for test cases
+in the same way that setuptools does.
