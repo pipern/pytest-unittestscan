@@ -1,0 +1,16 @@
+To try it, until we have our own tests:
+
+ $ python setup.py develop
+ $ PYTHONPATH=testdata/project1 py.test testdata/project1
+
+and to see our current bug:
+
+
+ $ PYTHONPATH=testdata/project1/:testdata/project2 \ 
+   py.test testdata/project1 testdata/project2/
+
+which gives:
+
+ERROR: can't collect: testdata/project1
+no node named 'project1' below <Directory 'testdata'>
+
